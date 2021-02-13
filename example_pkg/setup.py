@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="common", # Replace with your own username
+    name="example-pkg-YOUR-USERNAME-HERE", # Replace with your own username
     version="0.0.1",
-    author="Hugh Ngyen",
+    author="Example Author",
     author_email="author@example.com",
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/HieuNguyen202/test-python-module",
+    url="https://github.com/pypa/sampleproject",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
